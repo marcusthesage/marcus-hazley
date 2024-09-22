@@ -1,0 +1,34 @@
+* {
+  background-color: #E5E5E5;
+  box-sizing: border-box;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 150px auto;
+    min-width: 500px;
+}
+
+.avi{
+    grid-column: 1 / 2;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.bio{
+    grid-column: auto;
+    margin: 10px;
+}
+
+.borderr{
+    border: 2px solid black;
+}
+
+.status-box{
+  width: 100%;
+  flex-direction: column;
+}
+
