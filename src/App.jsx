@@ -7,9 +7,11 @@ function App() {
 
   return (
     <>
+    <div className='app-container'>
     <Header />
     <Status />
 
+    </div>
     </>
     
   )
