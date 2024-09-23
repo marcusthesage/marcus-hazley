@@ -6,7 +6,6 @@
 .grid-container{
     display: grid;
     grid-template-columns: 150px auto;
-    min-width: 500px;
 }
 
 .avi{
@@ -28,11 +27,12 @@
 }
 
 .status-box{
-  width: 100vw;
   flex-direction: column;
+  width: 100%;
   padding: 20px;
 }
 
 .app-container{
   width: 100vw;
+  max-width: 600px;
 }
