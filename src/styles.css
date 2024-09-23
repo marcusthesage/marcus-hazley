@@ -1,38 +1,49 @@
 * {
-  background-color: #E5E5E5;
+  
   box-sizing: border-box;
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 100px auto;
 }
 
 .avi{
     grid-column: 1 / 2;
-    background-color: aqua;
-    width: 150px;
-    height: 150px;
+    background-image: url(/src/assets/symbol.png);
+    background-position: center;
+    width: 100px;
+    height: 100px;
     border-radius: 100px;
-    margin: 10px;
+    margin: 30px;
 }
+
 
 .bio{
     grid-column: auto;
-    margin: 10px;
+    text-align: left;
+   
 }
 
 .borderr{
-    border: 2px solid black;
+  outline: 2px solid black;
 }
 
 .status-box{
-  flex-direction: column;
   width: 100%;
   padding: 10px;
+  max-height: 100px;
+  overflow: scroll;
 }
 
 .app-container{
- min-width: 300px;
-  max-width: 600px;
+    min-width: 0vw;
+    max-width: 800px;
+    outline: 2px solid black;
+
+}
+
+.nav-list{
+  
+  text-align: left;
 }
