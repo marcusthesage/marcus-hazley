@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <div className='app-container'>
+    <div className='app-container m-20'>
     <Header />
     <Status />
 

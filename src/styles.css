@@ -29,10 +29,10 @@
 .status-box{
   flex-direction: column;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .app-container{
-  width: 100vw;
+ min-width: 300px;
   max-width: 600px;
 }

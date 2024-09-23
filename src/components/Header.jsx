@@ -10,9 +10,9 @@ function Header() {
         <>
         <header className="grid-container borderr">
             <div className='avi'></div>
-            <div className='bio'>
-                <h1>Marcus Hazley</h1>
-                <p>Graphic Design/Web Development</p>
+            <div className='bio ml-10'>
+                <h1 className='text-4xl text-left'>Marcus Hazley</h1>
+                <p className='text-left'>Graphic Design/Web Development</p>
             </div>
 
         </header>
